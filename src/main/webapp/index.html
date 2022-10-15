@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>index.html</title>
+</head>
+<body>
+<h1>Add new employee</h1>
+<form action="SaveServlet">
+Name    <input type="text" name="userName"><br><br>
+Password<input type="Password" name="userPassword"><br><br>
+Email   <input type="email" name="userEmail"><br><br>
+Country <select name="userCountry">
+<option value="India">India</option>
+<option value="Germany">Germany</option>
+<option value="USA">USA</option>
+<option value="Canada">Canada</option>
+<option value="Australia">Australia</option>
+</select><br><br>
+<input type="submit" value="SaveEmployee">
+</form>
+<br><br>
+<a href="ViewServlet">ViewServlet</a>
+</body>
+</html>
